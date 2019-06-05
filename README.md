@@ -1,2 +1,3 @@
-# k8s-manual-files
-k8s-manual-files
+# Kubernetes Manual Files
+
+This repository contains a collection of files for Kubernetes manual.
