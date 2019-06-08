@@ -30,7 +30,7 @@ spec:
       containers:
       - name: metrics-server
         image: zhangguanzhang/gcr.io.google_containers.metrics-server-amd64:v0.3.1
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         args:
         - --kubelet-preferred-address-types=InternalIP
         - --kubelet-insecure-tls
