@@ -4,11 +4,10 @@ metadata:
   name: coredns-tcp
   namespace: external-dns
   labels:
-    k8s-app: coredns
+    k8s-app: coredns-tcp
 spec:
   type: LoadBalancer
-  externalIPs:
-  - {{ INGRESS_VIP }}
+  loadBalancerIP: {{ LoadBalancer_IP }}
   ports:
   - name: dns-tcp
     port: 53
