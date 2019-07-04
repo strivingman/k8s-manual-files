@@ -4,7 +4,7 @@ metadata:
   name: coredns-etcd
   namespace: external-dns
   labels:
-    k8s-app: coredns-etcd  
+    k8s-app: coredns-etcd
 spec:
   ports:
   - name: etcd-http
